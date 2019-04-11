@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Set_threshold">
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Cài đặt ngưỡng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Nhiệt độ (26 độ C - 30 độ C)"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edtNhietdo1"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="độ C"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Đến"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtNhietdo2"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="độ C"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Độ ẩm (80 %RH - 90 %RH)"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edtDoam1"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="%RH"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Đến"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtDoam2"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="%RH"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Âm thanh (2000 Hz - 10000 Hz)"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edtAmthanh1"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="5000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="Hz"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:text="Đến"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtAmthanh2"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="8000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="Hz"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Ánh sáng (0 - 2 lux)"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edtAnhsang1"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="lux"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:text="Đến"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtAnhsang2"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="lux"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnCaidat"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:text="Cài đặt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

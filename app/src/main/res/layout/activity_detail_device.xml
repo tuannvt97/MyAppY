@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Detail_device">
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Chi tiết thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Thiết bị" />
+        <TextView
+            android:id="@+id/twTenthietbichitiet"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Trạng thái" />
+        <TextView
+            android:textColor="#28E212"
+            android:layout_marginRight="10dp"
+
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="Hoạt động"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Số dư tài khoản" />
+        <TextView
+            android:textColor="#FF0326"
+            android:layout_marginRight="10dp"
+
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="500000 VNĐ"/>
+    </TableRow>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Nhiệt độ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Độ ẩm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Âm thanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Ánh sáng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="29 độ C"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="90 %"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="9000 Hz"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="1.6 Lux"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:text="Ngưỡng cài đặt"
+        android:textSize="22dp" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:text="Nhiệt độ"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/twNhietdo1"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="4dp"
+                android:textSize="20dp"
+                android:text=" - "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/twNhietdo2"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="(Độ C)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:text="Độ ẩm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/twDoam1"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="4dp"
+                android:textSize="20dp"
+                android:text=" - "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/twDoam2"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="(%RH)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:text="Âm thanh"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/twAmthanh1"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="4dp"
+                android:textSize="20dp"
+                android:text=" - "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/twAmthanh2"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="(Hz)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:text="Ánh sáng"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/twAnhsang1"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="4dp"
+                android:textSize="20dp"
+                android:text=" - "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/twAnhsang2"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="(Lux)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnCaidatnguong"
+            android:text="Cài đặt ngưỡng"
+            android:layout_width="200dp" />
+    </TableRow>
+</TableLayout>
